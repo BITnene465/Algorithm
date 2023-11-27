@@ -1,0 +1,1 @@
+{"name":"Local: 最优装载问题(暴搜)","url":"f:\\CPPstudy\\grade 2 first term\\school\\ch2 Tree\\最优装载问题(暴搜).cpp","tests":[{"id":1697777297791,"input":"6 4\n1 3 3 5","output":"6\n1 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPPstudy\\grade 2 first term\\school\\ch2 Tree\\最优装载问题(暴搜).cpp","group":"local","local":true}

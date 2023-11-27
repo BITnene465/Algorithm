@@ -1,0 +1,1 @@
+{"name":"Local: segtree","url":"f:\\CPPstudy\\mytest\\data structure\\segtree.cpp","tests":[{"id":1691952989273,"input":"10\n1 2 3 4 5 6 7 7 8 5\n1 1 1\n1 2 3\n1 4 7\n2 3\n2 1","output":"1\n5\n22\n0 0 0\n1 1 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPPstudy\\mytest\\data structure\\segtree.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: P3275糖果","url":"f:\\CPPstudy\\23 summer\\图论\\最短路\\差分约束\\P3275糖果.cpp","tests":[{"id":1692148350761,"input":"5 7\n1 1 2\n2 3 2\n4 4 1\n3 4 5\n5 4 5\n2 3 5\n4 5 1","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPPstudy\\23 summer\\图论\\最短路\\差分约束\\P3275糖果.cpp","group":"local","local":true}

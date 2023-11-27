@@ -1,0 +1,90 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+#define N 500 // 记得改
+#define INF 0x3f3f3f3f3f3f3f3f
+
+// 不理解!!! //
+struct MF
+{
+  struct Edge
+  {
+    int v, nxt, cap, flow;
+    Edge(int v, int nxt, int cap, int flow) : v(v), nxt(nxt), cap(cap), flow(flow) {}
+  } e[N];
+
+  int fir[N], cnt = 0;
+
+  int n, S, T;
+  ll maxflow;
+  int dep[N], cur[N];
+
+  void init()
+  {
+    memset(fir, -1, sizeof(fir));
+    cnt = 0;
+  }
+
+  void addedge(int u, int v, int w)
+  {
+    e[cnt] = {v, fir[u], w, 0};
+    fir[u] = cnt++;
+    e[cnt] = {u, fir[v], 0, 0};
+    fir[v] = cnt++;
+  }
+
+  bool bfs()
+  {
+    queue<int> q;
+    memset(dep, 0, sizeof(int) * (n + 1));
+
+    dep[S] = 1;
+    q.push(S);
+    while (q.size())
+    {
+      int u = q.front();
+      q.pop();
+      for (int i = fir[u]; ~i; i = e[i].nxt)
+      {
+        int v = e[i].v;
+        if ((!dep[v]) && (e[i].cap > e[i].flow))
+        {
+          dep[v] = dep[u] + 1;
+          q.push(v);
+        }
+      }
+    }
+    return dep[T];
+  }
+
+  int dfs(int u, int flow)
+  {
+    if ((u == T) || (!flow))
+      return flow;
+    int ret = 0;
+    for (int &i = cur[u]; ~i; i = e[i].nxt)
+    {
+      int v = e[i].v, d;
+      if ((dep[v] == dep[u] + 1) &&
+          (d = dfs(v, min(flow - ret, e[i].cap - e[i].flow))))
+      {
+        ret += d;
+        e[i].flow += d;
+        e[i ^ 1].flow -= d;
+        if (ret == flow)
+          return ret;
+      }
+    }
+    return ret;
+  }
+  ll dinic()
+  {
+    maxflow = 0;
+    while (bfs())
+    {
+      memcpy(cur, fir, sizeof(int) * (n + 1));
+      maxflow += dfs(S, INF);
+    }
+    return maxflow;
+  }
+} mf;

@@ -1,0 +1,1 @@
+{"name":"Local: P3387","url":"f:\\CPPstudy\\23 summer\\图论\\强联通 & 双联通 & 割点割边\\P3387.cpp","tests":[{"id":1692024112937,"input":"2 2\n1 1\n1 2\n2 1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPPstudy\\23 summer\\图论\\强联通 & 双联通 & 割点割边\\P3387.cpp","group":"local","local":true}

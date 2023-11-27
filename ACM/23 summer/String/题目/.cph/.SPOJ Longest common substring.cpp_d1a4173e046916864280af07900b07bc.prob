@@ -1,0 +1,1 @@
+{"name":"Local: SPOJ Longest common substring","url":"f:\\CPPstudy\\23 summer\\String\\题目\\SPOJ Longest common substring.cpp","tests":[{"id":1691804526513,"input":"abcabc\nbcabca","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPPstudy\\23 summer\\String\\题目\\SPOJ Longest common substring.cpp","group":"local","local":true}

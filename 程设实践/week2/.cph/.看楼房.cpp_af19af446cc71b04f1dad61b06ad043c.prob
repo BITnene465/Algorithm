@@ -1,0 +1,1 @@
+{"name":"Local: 看楼房","url":"f:\\CPPstudy\\程设实践\\week2\\看楼房.cpp","tests":[{"id":1693471514253,"input":"2\n5\n1 2 3 4 5\n1 3 4 2 5\n5\n1 2 4 4 5\n1 3 4 2 5","output":"1 1 1 2 1\n1 1 1 1 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPPstudy\\程设实践\\week2\\看楼房.cpp","group":"local","local":true}

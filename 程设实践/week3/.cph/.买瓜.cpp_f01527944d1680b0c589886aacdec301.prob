@@ -1,0 +1,1 @@
+{"name":"Local: 买瓜","url":"f:\\CPPstudy\\程设实践\\week3\\买瓜.cpp","tests":[{"id":1694050779027,"input":"5 1\n2 4 5\n4 3 3\n1 3 2\n3 4 3\n3 2 5\n10 10","output":"15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPPstudy\\程设实践\\week3\\买瓜.cpp","group":"local","local":true}
