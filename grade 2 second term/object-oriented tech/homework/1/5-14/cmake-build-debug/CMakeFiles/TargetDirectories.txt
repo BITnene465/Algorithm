@@ -1,0 +1,3 @@
+F:/CPPstudy/grade 2 second term/object-oriented tech/homework/1/5-14/cmake-build-debug/CMakeFiles/5_14.dir
+F:/CPPstudy/grade 2 second term/object-oriented tech/homework/1/5-14/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/CPPstudy/grade 2 second term/object-oriented tech/homework/1/5-14/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+#ifndef OBJECT_ORIENTED_TECH_TEST_H
+#define OBJECT_ORIENTED_TECH_TEST_H
+extern int x;
+void hello();
+#endif //OBJECT_ORIENTED_TECH_TEST_H

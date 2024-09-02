@@ -1,5 +1,6 @@
 // 记忆化搜索入门好题 //
 // dp[i][j]表示从点（i，j）开始，最长的滑雪路径 //
+// 当你不知道更新顺序的时候，可以使用记忆化搜索 //
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn=105;

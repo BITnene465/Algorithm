@@ -1,0 +1,4 @@
+"G:\software\Clion\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=G:/software/Clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "F:\CPPstudy\grade 2 second term\object-oriented tech" -B "F:\CPPstudy\grade 2 second term\object-oriented tech\cmake-build-debug"
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: F:/CPPstudy/grade 2 second term/object-oriented tech/cmake-build-debug

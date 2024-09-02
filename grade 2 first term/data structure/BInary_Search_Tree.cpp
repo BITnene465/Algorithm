@@ -10,7 +10,7 @@ node* rt;
 void Insert(node* &rt,int k);
 void Delnode(node* p);
 void rotate_L(node* &rt);
-void rotate_R(node* & rt);
+void rotate_R(node* &rt);
 void preorder(node* rt);
 void inorder(node* rt);
 void postorder(node* rt);

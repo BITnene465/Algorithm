@@ -75,8 +75,6 @@ namespace SPFA
 namespace FLOYD
 {
     ll dis[1005][1005];
-    queue<ll> q;
-    bool inque[1005];
     void init(ll n){
         memset(dis, 0x3f, sizeof(dis));
         for(int i=1;i<=n;++i)dis[i][i] = 0;
@@ -128,7 +126,7 @@ int main(void)
     for(int i=1;i<=m;++i){
         ll u,v,w;
         cin>>u>>v>>w;
-        dis[u][v] = min(dis[u][v], w);
+        dis[u][v] = min(dis[u][v], w);    // 记得初始化边权
     }
     floyd(n);
     printDistance(n);

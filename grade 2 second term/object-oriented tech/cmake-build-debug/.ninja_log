@@ -1,0 +1,12 @@
+# ninja log v5
+3	381	7313147916794784	CMakeFiles/object_oriented_tech.dir/main.cpp.obj	ca989f81ebe2002f
+1	1457	7313143026410361	CMakeFiles/object_oriented_tech.dir/src/src/test.cpp.obj	5a032a84e37d206f
+423	560	7313147549151975	object_oriented_tech.exe	c54f245d5d33c619
+8	382	7313148952627315	CMakeFiles/object_oriented_tech.dir/src/src/test.cpp.obj	5a032a84e37d206f
+3	383	7313148952627315	CMakeFiles/object_oriented_tech.dir/main.cpp.obj	ca989f81ebe2002f
+383	519	7313148953972404	object_oriented_tech.exe	c54f245d5d33c619
+9	407	7313151582698654	CMakeFiles/object_oriented_tech.dir/src/src/test.cpp.obj	5a032a84e37d206f
+3	417	7313151582790557	CMakeFiles/object_oriented_tech.dir/main.cpp.obj	ca989f81ebe2002f
+417	548	7313151584067592	object_oriented_tech.exe	c54f245d5d33c619
+3	394	7313151967190836	CMakeFiles/object_oriented_tech.dir/main.cpp.obj	ca989f81ebe2002f
+395	570	7313151968870796	object_oriented_tech.exe	c54f245d5d33c619
